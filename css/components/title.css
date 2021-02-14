@@ -3,14 +3,6 @@ section {
   background-color: #3f4063;
 }
 
-#identification {
-  width: 627px;
-  height: 184px;
-
-  background-color: #24708f;
-  box-shadow: 5px 5px 0px #000000;
-}
-
 h1 {
   font-size: 40px;
   font-family: "Press Start 2P", cursive;

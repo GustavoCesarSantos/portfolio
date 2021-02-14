@@ -1,0 +1,45 @@
+section {
+  height: 797px;
+  background-color: #3f4063;
+}
+
+#identification {
+  width: 627px;
+  height: 184px;
+
+  background-color: #24708f;
+  box-shadow: 5px 5px 0px #000000;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 4px 4px 0px #000000;
+
+  color: #ffff;
+}
+
+h2 {
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+  text-shadow: 4px 4px 0px #000000;
+
+  color: #f54771;
+}
+
+.main-button {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-family: "Fira Code", monospace;
+
+  background-color: #f54771;
+  color: white;
+
+  box-shadow: 5px 5px 0px #000000;
+}

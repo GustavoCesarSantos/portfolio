@@ -44,8 +44,11 @@ a::before {
   color: white;
 
   box-shadow: 5px 5px 0px #000000;
+
+  transition: trasform 100ms linear;
 }
 
 #button:hover {
+  transform: scale(1.08);
   background-color: #ff8171;
 }

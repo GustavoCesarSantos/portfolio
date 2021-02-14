@@ -1,0 +1,10 @@
+.header {
+  padding: 10px 20px;
+  border-bottom: 10px solid #000;
+
+  background-color: #384885;
+}
+
+.header .navigation {
+  text-align: right;
+}

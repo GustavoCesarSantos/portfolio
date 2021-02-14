@@ -1,0 +1,24 @@
+.main-button {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+
+  margin-right: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: 20px;
+  text-decoration: none;
+
+  background-color: #f54771;
+  color: white;
+
+  box-shadow: 5px 5px 0px #000000;
+
+  transition: trasform 100ms linear;
+}
+
+.main-button:hover {
+  transform: scale(1.08);
+  background-color: #ff8171;
+}

@@ -5,3 +5,7 @@
 
   color: #ffff;
 }
+
+.title.-variation {
+  text-shadow: none;
+}

@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="css/components/github.css">
     <link rel="stylesheet" href="css/components/header.css">
     <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/skills.css">
+    <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/title.css">
     
     <title>Gustavo Cesar Santos</title>
   </head>
@@ -31,10 +32,11 @@
         <a href="" lang="en" class="main-button"> Download CV</a>
       </nav>
     </header>
+
     <section class="banner">
       <div class="wrapper">
         <div class="box">
-          <h2 class="title">Gustavo Cesar</h2>
+          <h2 class="main-title">Gustavo Cesar</h2>
           <h3 class="subtitle">Software Developer</h3>
         </div>
         <div class="wrapper-buttons">
@@ -43,19 +45,46 @@
         </div>
       </div>
     </section>
-    <section class="skills">
-      <h2 class="title -variation">Skills</h2>
-      <img src="./assets/img/ico_html5.png" alt="HTML5 Icon">
-      <img src="./assets/img/ico_css3.png" alt="CSS3 Icon">
-      <img src="./assets/img/ico_js.png" alt="JS Icon">
-      <img src="./assets/img/ico_angular.png" alt="Angular Icon">
 
+    <section class="skills">
+      <h2 class="main-title -variation">Skills</h2>
+
+      <article class="skill-tec">
+        <img class="icon" src="./assets/img/ico_html5.png" alt="HTML5 Icon">
+        <div class="right">
+          <h3 class="title">HTML</h3>
+          <progress max="100" value="65">65%</progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="./assets/img/ico_css3.png" alt="CSS3 Icon">
+        <div class="right">
+          <h3 class="title">CSS</h3>
+          <progress max="100" value="65">65%</progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="./assets/img/ico_js.png" alt="JS Icon">
+        <div class="right">
+          <h3 class="title">Javascript</h3>
+          <progress max="100" value="65">65%</progress>
+        </div>
+      </article>
+      <article class="skill-tec">
+        <img class="icon" src="./assets/img/ico_angular.png" alt="Angular Icon">
+        <div class="right">
+          <h3 class="title">Angular</h3>
+          <progress max="100" value="65">65%</progress>
+        </div>
+      </article>
     </section>
+
     <section class="github">
-      <h2 class="title -variation">Github</h2>
+      <h2 class="main-title -variation">Github</h2>
     </section>
+
     <section class="contato">
-      <h2 class="title -variation">Contato</h2>
+      <h2 class="main-title -variation">Contato</h2>
     </section>
   </body>
 </html>

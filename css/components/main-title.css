@@ -1,4 +1,4 @@
-.title {
+.main-title {
   font-size: 40px;
   font-family: "Press Start 2P", cursive;
   text-shadow: 4px 4px 0px #000000;
@@ -6,6 +6,7 @@
   color: #ffff;
 }
 
-.title.-variation {
+.main-title.-variation {
+  text-align: center;
   text-shadow: none;
 }

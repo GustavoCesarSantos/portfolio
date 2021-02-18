@@ -1,7 +1,12 @@
-.subtitle {
+.main-subtitle {
   font-size: 30px;
   font-family: "Press Start 2P", cursive;
   text-shadow: 4px 4px 0px #000000;
 
   color: #f54771;
+}
+
+.main-subtitle.-logo {
+  color: #fff;
+  font-size: 24px;
 }

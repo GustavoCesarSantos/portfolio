@@ -1,24 +1,22 @@
-.section {
+.main-section {
   padding-top: 50px;
   padding-bottom: 100px;
+}
 
+.main-section.-skills {
   background-color: #0e2b37;
   border-bottom: 10px solid #000;
 }
 
-.section .main-title {
+.main-section .main-title {
   margin-bottom: 60px;
 }
 
-.section.-github {
-  height: 300px;
-
+.main-section.-github {
   background-color: #1b2340;
   border-bottom: 10px solid #000;
 }
 
-.section.-contato {
-  height: 500px;
-
+.main-section.-contato {
   background-color: #870726;
 }

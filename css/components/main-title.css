@@ -10,3 +10,7 @@
   text-align: center;
   text-shadow: none;
 }
+
+.main-title.-email {
+  font-size: 16px;
+}

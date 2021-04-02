@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="css/components/main-box.css">
     <link rel="stylesheet" href="css/components/main-button.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/main-header.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/main-title.css">
     <link rel="stylesheet" href="css/components/main-subtitle.css">
@@ -39,7 +42,7 @@
       <div class="wrapper">
         <div class="main-box">
           <h2 class="main-title">Gustavo Cesar</h2>
-          <h3 class="main-subtitle">Software Developer</h3>
+          <h3 class="main-subtitle">Web Developer</h3>
         </div>
         <div class="wrapper-buttons">
           <button lang="en" class="main-button"> Download CV</button>
@@ -107,6 +110,18 @@
 
     <section class="main-section -contato">
       <h2 class="main-title -variation">Contato</h2>
+      <form class="main-form">
+        <label class="main-label" for="name">Nome</label>
+        <input class="main-input" id="name" type="text" required>
+
+        <label class="main-label" for="email">E-mail</label>
+        <input class="main-input" id="email" type="text" required>
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea class="main-input -textarea" id="message" required></textarea>
+
+        <button class="main-button -send" type="submit">Enviar</button>
+      </form>
     </section>
 
     <footer class="main-footer">

@@ -16,9 +16,22 @@
   box-shadow: 5px 5px 0px #000000;
 
   transition: trasform 100ms linear;
+
+  cursor: pointer;
 }
 
 .main-button:hover {
   transform: scale(1.08);
+  background-color: #ff8171;
+}
+
+.main-button.-send {
+  width: 100%;
+
+  background-color: #1a5269;
+}
+
+.main-button.-send:hover {
+  transform: scale(1.01);
   background-color: #ff8171;
 }

@@ -134,3 +134,7 @@ button {
   border: none;
   font-family: inherit;
 }
+input {
+  margin: 0;
+  padding: 0;
+}
